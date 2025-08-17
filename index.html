@@ -27,14 +27,14 @@
         /* Increased height for chart container to accommodate more labels */
         .chart-container {
             position: relative;
-            width: 100%;
-            max-width: 800px; /* Still constrain max width */
+            // width: 100%;
+            max-// width: 800px; /* Still constrain max width */
             margin-left: auto;
             margin-right: auto;
             height: 900px; /* Increased height for 60 labels */
             max-height: 90vh; /* Max height for larger screens */
         }
-        @media (min-width: 768px) {
+        @media (min-// width: 768px) {
             .chart-container {
                 height: 1200px; /* Even taller on desktop for better spacing */
                 max-height: 90vh;
@@ -53,7 +53,7 @@
             gap: 1rem; /* Space between images */
             padding-bottom: 1rem; /* Space for scrollbar */
             -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-            scrollbar-width: thin; /* Firefox */
+            scrollbar-// width: thin; /* Firefox */
             scrollbar-color: #34658F #F1F1F1; /* Firefox */
         }
         .image-album::-webkit-scrollbar {
@@ -69,7 +69,7 @@
         }
         .image-album img {
             flex-shrink: 0; /* Prevent images from shrinking */
-            width: 250px; /* Fixed width for each image in album */
+            // width: 250px; /* Fixed width for each image in album */
             height: 180px; /* Fixed height */
             object-fit: cover;
             border-radius: 0.5rem;
@@ -80,8 +80,8 @@
         .image-viewer-modal-content {
             background-color: #1a1a1a; /* Dark background for image viewer */
             position: relative;
-            width: 90%;
-            max-width: 900px;
+            // width: 90%;
+            max-// width: 900px;
             max-height: 90vh;
             display: flex;
             flex-direction: column;
@@ -92,7 +92,7 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.5);
         }
         .image-viewer-modal-content img {
-            max-width: 100%;
+            max-// width: 100%;
             max-height: 75vh; /* Adjust height to leave space for controls */
             object-fit: contain;
             border-radius: 0.5rem;
@@ -100,7 +100,7 @@
         .image-viewer-controls {
             display: flex;
             justify-content: space-between;
-            width: 100%;
+            // width: 100%;
             margin-top: 1rem;
         }
         .image-viewer-controls button {
@@ -418,7 +418,7 @@
                 name: "عروسک ماتروشکا",
                 englishName: "Matryoshka Doll",
                 country: "روسیه",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 16, // New field
                 maxPriceUSD: 219, // New field
                 origin: "سرگیف پوساد",
@@ -448,7 +448,7 @@
                 name: "فرش ایرانی",
                 englishName: "Persian Carpet",
                 country: "ایران",
-                secondCountry: "ایالات متحده و چین", // New field
+                // secondCountry: "ایالات متحده و چین", // New field
                 minPriceUSD: 1180, // New field
                 maxPriceUSD: 70000, // New field
                 origin: "کاشان، اصفهان، تبریز",
@@ -475,15 +475,15 @@
                 ],
                 annualProductionUnits: " (3.9 میلیون متر مربع دستباف) حدود 100 میلیون متر مربع",
                 annualSalesRevenueUSD: "از 370 میلیون دلار",
-                annualProductionUnitsSecondCountry: "چین با حدود 60 میلیون متر مربع (ماشینی)", // New field
-                annualSalesRevenueUSDSecondCountry: "چین با 10 میلیارد دلار (ماشینی)" // New field
+                // annualProductionUnitsSecondCountry: "چین با حدود 60 میلیون متر مربع (ماشینی)", // New field
+                // annualSalesRevenueUSDSecondCountry: "چین با 10 میلیارد دلار (ماشینی)" // New field
             },
             {
                 id: 3,
                 name: "ماسک ونیزی",
                 englishName: "Venetian Mask",
                 country: "ایتالیا",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 20, // New field
                 maxPriceUSD: 200, // New field
                 origin: "ونیز",
@@ -513,7 +513,7 @@
                 name: "کیمونو",
                 englishName: "Kimono",
                 country: "ژاپن",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 100, // New field
                 maxPriceUSD: 5000, // New field
                 origin: "کیوتو",
@@ -548,7 +548,7 @@
                 name: "صندل اسپانیایی (اسپایدریل)",
                 englishName: "Espadrilles",
                 country: "اسپانیا",
-                secondCountry: "-", // New field
+                // secondCountry: "-", // New field
                 minPriceUSD: 00, // New field
                 maxPriceUSD: "00", // New field
                 origin: "منطقه پیرنه",
@@ -578,7 +578,7 @@
                 name: "مجسمه ابوالهول",
                 englishName: "Sphinx Figurine",
                 country: "مصر",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 500, // New field
                 origin: "جیزه، قاهره",
@@ -608,7 +608,7 @@
                 name: "کلاه کابوی",
                 englishName: "Cowboy Hat",
                 country: "آمریکا",
-                secondCountry: "مکزیک", // New field
+                // secondCountry: "مکزیک", // New field
                 minPriceUSD: 20, // New field
                 maxPriceUSD: 150, // New field
                 origin: "تگزاس",
@@ -638,7 +638,7 @@
                 name: "اسب دالا (اسب دالکارلیایی)",
                 englishName: "Dala Horse",
                 country: "سوئد",
-                secondCountry: "-", // New field
+                // secondCountry: "-", // New field
                 minPriceUSD: 25, // New field
                 maxPriceUSD: "100", // New field
                 origin: "روستای برگکارلوس، سوئد",
@@ -668,7 +668,7 @@
                 name: "بومرنگ",
                 englishName: "Boomerang",
                 country: "استرالیا",
-                secondCountry: "-", // New field
+                // secondCountry: "-", // New field
                 minPriceUSD: 5, // New field
                 maxPriceUSD: 300, // New field
                 origin: "سرزمین آرنهم",
@@ -698,7 +698,7 @@
                 name: "کفش چوبی هلندی",
                 englishName: "Dutch Clogs (Klompen)",
                 country: "هلند",
-                secondCountry: "چین و سوئد", // New field
+                // secondCountry: "چین و سوئد", // New field
                 minPriceUSD: 50, // New field
                 maxPriceUSD: 150, // New field
                 origin: "Zaanse Schans",
@@ -720,15 +720,15 @@
                 ],
                 annualProductionUnits: 3000000,
                 annualSalesRevenueUSD: "از 150 تا 300 میلیون دلار",
-                annualProductionUnitsSecondCountry: "داده در دسترس نیست", // New field
-                annualSalesRevenueUSDSecondCountry: "داده در دسترس نیست" // New field
+                // annualProductionUnitsSecondCountry: "داده در دسترس نیست", // New field
+                // annualSalesRevenueUSDSecondCountry: "داده در دسترس نیست" // New field
             },
             {
                 id: 11,
                 name: "فانوس مراکشی",
                 englishName: "Moroccan Lantern",
                 country: "مراکش",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 30, // New field
                 maxPriceUSD: 200, // New field
                 origin: "فاس، مراکش",
@@ -758,7 +758,7 @@
                 name: "سفال یونانی",
                 englishName: "Greek Pottery",
                 country: "یونان",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: "+600", // New field
                 origin: "آتن (آرگولیس)، کورینت",
@@ -788,7 +788,7 @@
                 name: "دامن اسکاتلندی",
                 englishName: "Kilt",
                 country: "Scotland",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "آتن (آرگولیس)، کورینت",
@@ -818,7 +818,7 @@
                 name: "شیشه مورانو",
                 englishName: "Murano Glass",
                 country: "ایتالیا",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "آتن (آرگولیس)، کورینت",
@@ -848,7 +848,7 @@
                 name: "کُوکِه‌شی",
                 englishName: "Kokeshi",
                 country: "ژاپن",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "آتن (آرگولیس)، کورینت",
@@ -879,7 +879,7 @@
                 name: "کاشی‌های آزولجو",
                 englishName: "Azulejo Tiles",
                 country: "پرتغال",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "آتن (آرگولیس)، کورینت",
@@ -910,7 +910,7 @@
                 name: "چینی و سفال سنتی",
                 englishName: "Porcelain",
                 country: "چین",
-                secondCountry: "؟یونان", // New field
+                // secondCountry: "؟یونان", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "جیجانگ (موسوم به مرکز ظروف چینی)",
@@ -940,7 +940,7 @@
                 name: "پتوی ساراپه",
                 englishName: "Sarape",
                 country: "مکزیک",
-                secondCountry: "؟یونان", // New field
+                // secondCountry: "؟یونان", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "جیجانگ (موسوم به مرکز ظروف چینی)",
@@ -970,7 +970,7 @@
                 name: "کلاه بره",
                 englishName: "Beret",
                 country: "فرانسه",
-                secondCountry: "؟یونان", // New field
+                // secondCountry: "؟یونان", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "جیجانگ (موسوم به مرکز ظروف چینی)",
@@ -1000,7 +1000,7 @@
                 name: "روآنا",
                 englishName: "Ruana",
                 country: "-",
-                secondCountry: "؟یونان", // New field
+                // secondCountry: "؟یونان", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "جیجانگ (موسوم به مرکز ظروف چینی)",
@@ -1029,7 +1029,7 @@
                 name: "کیف وایو",
                 englishName: "Mochila Wayuu",
                 country: "ونزوئلا و کلمبیا",
-                secondCountry: "؟یونان", // New field
+                // secondCountry: "؟یونان", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "جیجانگ (موسوم به مرکز ظروف چینی)",
@@ -1059,7 +1059,7 @@
                 name: "هموک سنتی",
                 englishName: "Hammock",
                 country: "ونزوئلا",
-                secondCountry: "؟یونان", // New field
+                // secondCountry: "؟یونان", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "جیجانگ (موسوم به مرکز ظروف چینی)",
@@ -1089,7 +1089,7 @@
                 name: "عُود (عطر) عربی",
                 englishName: "Arabian Oud",
                 country: "عربستان",
-                secondCountry: "؟ تونس یا امارات ؟", // New field
+                // secondCountry: "؟ تونس یا امارات ؟", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "-",
@@ -1119,7 +1119,7 @@
                 name: "قالی و گلیم آذربایجانی",
                 englishName: "Xalça",
                 country: "جمهوری آذربایجان",
-                secondCountry: "؟ایران یا ترکیه؟", // New field
+                // secondCountry: "؟ایران یا ترکیه؟", // New field
                 minPriceUSD: 100, // New field
                 maxPriceUSD: 5000, // New field
                 origin: "پشم و ابریشم",
@@ -1149,7 +1149,7 @@
                 name: "کلاه خزدار روسی",
                 englishName: "Ushanka",
                 country: "روسیه",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 20, // New field
                 maxPriceUSD: 150, // New field
                 origin: "ایرکوتسک، اوفا",
@@ -1179,7 +1179,7 @@
                 name: "ابریشم چینی",
                 englishName: "chinese silk",
                 country: "چین",
-                secondCountry: "هند", // New field
+                // secondCountry: "هند", // New field
                 minPriceUSD: 5, // New field
                 maxPriceUSD: 100, // New field
                 origin: "-",
@@ -1209,7 +1209,7 @@
                 name: "چشم نظر",
                 englishName: "Nazar Boncuğu",
                 country: "ترکیه",
-                secondCountry: "یونان", // New field
+                // secondCountry: "یونان", // New field
                 minPriceUSD: 1, // New field
                 maxPriceUSD: 20, // New field
                 origin: "استان آیدین (مرسین)",
@@ -1239,7 +1239,7 @@
                 name: "شال کشمیری",
                 englishName: "Kashmiri Shawl",
                 country: "منطقه کشمیر (هند و پاکستان)",
-                secondCountry: "هند و پاکستان", // New field
+                // secondCountry: "هند و پاکستان", // New field
                 minPriceUSD: 50, // New field
                 maxPriceUSD: 500, // New field
                 origin: "کشمیر",
@@ -1269,7 +1269,7 @@
                 name: "کفش دست دوز",
                 englishName: "Khussa",
                 country: "پاکستان",
-                secondCountry: "-", // New field
+                // secondCountry: "-", // New field
                 minPriceUSD: 5, // New field
                 maxPriceUSD: 15, // New field
                 origin: "مولتان",
@@ -1299,7 +1299,7 @@
                 name: "دَله",
                 englishName: "Dallah",
                 country: "عربستان?",
-                secondCountry: "?امارات", // New field
+                // secondCountry: "?امارات", // New field
                 minPriceUSD: 20, // New field
                 maxPriceUSD: 200, // New field
                 origin: "آتن، کرت",
@@ -1330,7 +1330,7 @@
                 name: "ماکت اماکن دیدنی",
                 englishName: "Burj Khalifa Souvenir",
                 country: "امارات",
-                secondCountry: "چین", // New field
+                // secondCountry: "چین", // New field
                 minPriceUSD: 10, // New field
                 maxPriceUSD: 100, // New field
                 origin: "دبی",
@@ -1360,7 +1360,7 @@
                 name: "ساری ابریشمی",
                 englishName: "Silk sarees",
                 country: "هند",
-                secondCountry: "بنگلادش", // New field
+                // secondCountry: "بنگلادش", // New field
                 minPriceUSD: 20, // New field
                 maxPriceUSD: 500, // New field
                 origin: "بمبئی، جنوب هند (کارناتاکا)",
@@ -1406,8 +1406,8 @@
                 website: "www.dfs.com",
                 salesVolume: "000",
                 areaSqM: "000",
-                length: 00, 
-                width: 00,  
+                // length: 00, 
+                // width: 00,  
                 productsSold: ["محصولات فرهنگی و سوغاتی کشور میزبان", "مد و اکسسوری", "برندها"],
                 location: "دفتر مرکزی در شهر تسیم شا تسوی، کاولون",
                 type: "chain", // New field
@@ -1426,8 +1426,8 @@
                 website: "www.shamrockgiftcompany.com",
                 salesVolume: "000",
                 areaSqM: "000",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["از اسباب‌بازی‌ها و هدیه‌های سرگرم‌کننده تا فهرستی از سوغاتی‌ها باکیفیت و بسته‌بندی درخور"],
                 location: "دوبلین",
                 type: "chain", // New field
@@ -1447,8 +1447,8 @@
                 website: "casahernanz.es",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["رشته و طناب (مصنوعی و طبیعی، شامل چرم)", "مجسمه‌های تزئینی از اسبارتو (گیاه بومی)" ,"تورهای تزئینی، ورزشی و ساختمانی" ,"کیسه‌های جوت و پیته" ,"سبدهای حصیری از جنس ممرز یا اسبارتو" ,"کفش‌های سنتی اسپانیایی"],
                 location: "Calle de Toledo, 18 28005 Madrid",
                 type: "retail", // New field
@@ -1468,8 +1468,8 @@
                 website: "worldofsouvenir.hu",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["بسیاری از کالاها از هنرمندان محلی تهیه شده و بازتاب‌دهنده فرهنگ مردمی مجارستان هستند" ,"دست‌بافته‌ها" ,"سرامیک‌های سنتی" ,"سوغاتی‌هایی با هویت فرهنگی مجارستان "],
                 location: ["Budapest V., 10 Deák Ferenc Street", "Budapest VI., 14 Király Street"],
                 type: "retail", // New field
@@ -1489,8 +1489,8 @@
                 website: "bringfrancehome.com",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["لیوان Duralex", "مجسمه‌های تزئینی از اسبارتو (گیاه بومی)" ,"سوغاتی‌های شهری" ,"چاقوهای Opinel" ,"دکوری‌های فرانسوی" ,"غذاهای محلی"],
                 location: "3 rue de Birague Place des Vosges 4ème arrondissement",
                 type: "retail", // New field
@@ -1512,8 +1512,8 @@
                 website: "fancythatoflondon.com",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["سوغاتی‌های لندن: ماگ، تی‌شرت، شال، کارت‌پستال، اکسسوری‌های نوولتی و غیره"],
                 location: ["48 Great Russell Street, London, WC1B 3PA", "32-34 Haymarket Chinatown London SW1Y 4TP"],
                 type: "retail", // New field
@@ -1535,8 +1535,8 @@
                 website: "ibasen.co.jp",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["خرده فروشی ژاپنی", "بادبزن تاشو", "بادبزن اوچیوا", "بادبزن تزئینی", "چاپ‌های اوکی‌یوئه"],
                 location: ["4-1 Kobunacho, Nihonbashi, Chuo-ku, Tokyo, 103-0024"],
                 type: "retail", // New field
@@ -1556,8 +1556,8 @@
                 website: "frankenmuthclock.com",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["ساعت‌های آلمانی", "سوغاتی‌های آلمانی", "هدایای اصیل آلمانی"],
                 location: ["966 S. Main St.Frankenmuth, MI 48734"],
                 type: "retail", // New field
@@ -1577,8 +1577,8 @@
                 website: "souvenirparadies.de",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["استین‌های (لیوان‌های آلمانی) مینیاتوری", "مجسمه‌های هومل", "ساعت‌های کوکو"],
                 location: ["Römerberg 15 60311 Frankfurt am Main"],
                 type: "retail", // New field
@@ -1598,8 +1598,8 @@
                 website: "germangiftoutlet.com",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["استین‌های (لیوان‌های آلمانی) آبجوی آلمانی", "کلاه‌های اکتبرفست", "هدایا و سوغاتی‌های آلمانی"],
                 location: ["618 South Pacific Hwy Talent, Oregon 97540"],
                 type: "retail", // New field
@@ -1619,8 +1619,8 @@
                 website: "artgaudi.com",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["سوغاتی‌های هنری", "لوازم دکوری"],
                 location: ["C/ de la Tapineria, 10. 08002 Barcelona"],
                 type: "retail", // New field
@@ -1641,8 +1641,8 @@
                 website: "artgaudi.com",
                 salesVolume: "00",
                 areaSqM: "00",
-                length: 00,
-                width: 00,
+                // length: 00,
+                // width: 00,
                 productsSold: ["سوغاتی‌های هنری", "لوازم دکوری"],
                 location: ["C/ de la Tapineria, 10. 08002 Barcelona"],
                 type: "retail", // New field
@@ -1663,8 +1663,8 @@
                 website: "https://www.traveltreasures.eg",
                 salesVolume: "950000.00",
                 areaSqM: "180",
-                length: 18,
-                width: 10,
+                // length: 18,
+                // width: 10,
                 productsSold: ["اشیای دکوری", "محصولات سنگی"],
                 location: "مرکز خرید مدرن",
                 type: "chain", // New field
@@ -1682,8 +1682,8 @@
                 website: "https://www.uniquekeepsakes.ir",
                 salesVolume: "2000000.00",
                 areaSqM: "300",
-                length: 30,
-                width: 10,
+                // length: 30,
+                // width: 10,
                 productsSold: ["فرش و گلیم", "سرامیک‌های دست‌ساز"],
                 location: "دهکده صنایع دستی",
                 type: "retail", // New field
@@ -1702,8 +1702,8 @@
                 website: "https://www.wanderlustwares.it",
                 salesVolume: "1800000.00",
                 areaSqM: "220",
-                length: 22,
-                width: 10,
+                // length: 22,
+                // width: 10,
                 productsSold: ["اشیای دکوری", "سرامیک‌های دست‌ساز"],
                 location: "خیابان خرید لوکس",
                 type: "chain", // New field
@@ -1721,8 +1721,8 @@
                 website: "https://www.heritagehandiworks.us",
                 salesVolume: "1100000.00",
                 areaSqM: "170",
-                length: 17,
-                width: 10,
+                // length: 17,
+                // width: 10,
                 productsSold: ["کلاه و پوشاک", "ابزار سنتی"],
                 location: "بلوار ساحلی",
                 type: "retail", // New field
@@ -1741,8 +1741,8 @@
                 website: "https://www.thelocaltouch.au",
                 salesVolume: "750000.00",
                 areaSqM: "130",
-                length: 13,
-                width: 10,
+                // length: 13,
+                // width: 10,
                 productsSold: ["ابزار سنتی", "صنایع دستی چوبی"],
                 location: "منطقه هنری",
                 type: "retail", // New field
@@ -1761,8 +1761,8 @@
                 website: "https://www.passportpresents.ma",
                 salesVolume: "900000.00",
                 areaSqM: "160",
-                length: 16,
-                width: 10,
+                // length: 16,
+                // width: 10,
                 productsSold: ["محصولات چرمی", "سفالینه‌های رنگی"],
                 location: "بازار بزرگ، منطقه تاریخی",
                 type: "chain", // New field
@@ -1781,8 +1781,8 @@
                 website: "#",
                 salesVolume: "100000.00", // Placeholder, as it's retail
                 areaSqM: "50",
-                length: 5,
-                width: 10,
+                // length: 5,
+                // width: 10,
                 productsSold: ["ماکت برج ایفل", "جاکلیدی", "کارت پستال"],
                 location: "کوچه پس‌کوچه‌های مون‌مارتر، پاریس",
                 type: "retail",
@@ -1800,8 +1800,8 @@
                 website: "#",
                 salesVolume: "120000.00", // Placeholder, as it's retail
                 areaSqM: "70",
-                length: 7,
-                width: 10,
+                // length: 7,
+                // width: 10,
                 productsSold: ["ماگ آبجو", "چوب‌تراشی", "عروسک‌های سنتی"],
                 location: "مرکز شهر قدیمی، مونیخ",
                 type: "retail",
@@ -1819,8 +1819,8 @@
                 website: "#",
                 salesVolume: "90000.00", // Placeholder, as it's retail
                 areaSqM: "60",
-                length: 6,
-                width: 10,
+                // length: 6,
+                // width: 10,
                 productsSold: ["سفال یونانی", "مجسمه‌های کوچک", "روغن زیتون"],
                 location: "نزدیک آکروپولیس، آتن",
                 type: "retail",
@@ -1838,8 +1838,8 @@
                 website: "#",
                 salesVolume: "180000.00", // Placeholder, as it's retail
                 areaSqM: "90",
-                length: 9,
-                width: 10,
+                // length: 9,
+                // width: 10,
                 productsSold: ["ظروف مسی", "قالیچه‌های کوچک", "لامپ‌های موزاییک"],
                 location: "بازار بزرگ، استانبول",
                 type: "retail",
@@ -1857,8 +1857,8 @@
                 website: "#",
                 salesVolume: "70000.00", // Placeholder, as it's retail
                 areaSqM: "45",
-                length: 4.5,
-                width: 10,
+                // length: 4.5,
+                // width: 10,
                 productsSold: ["پاپیروس", "مجسمه‌های فرعون", "جواهرات مصری"],
                 location: "نزدیک اهرام جیزه، قاهره",
                 type: "retail",
@@ -2269,6 +2269,46 @@
                 economicLevels: { high: 35, medium: 45, low: 20 },
                 demographics: { retired: 15, couples: 30, solo: 25, youth: 15, family: 15 },
                 image: "Flags/Qatar.png"
+            },
+            {
+                id: 18,
+                country: "ارمنستان",
+                topDestinations: ["لندن", "ادینبورگ", "منچستر"],
+                travelPurposes: { business: 30, education: 20, leisure: 40, family: 10 },
+                ageGroups: { '18-25': 20, '26-40': 40, '41-60': 25, '60+': 15 },
+                economicLevels: { high: 35, medium: 45, low: 20 },
+                demographics: { retired: 15, couples: 30, solo: 25, youth: 15, family: 15 },
+                image: "Flags/armania.gif"
+            },
+            {
+                id: 19,
+                country: "مالزی",
+                topDestinations: ["لندن", "ادینبورگ", "منچستر"],
+                travelPurposes: { business: 30, education: 20, leisure: 40, family: 10 },
+                ageGroups: { '18-25': 20, '26-40': 40, '41-60': 25, '60+': 15 },
+                economicLevels: { high: 35, medium: 45, low: 20 },
+                demographics: { retired: 15, couples: 30, solo: 25, youth: 15, family: 15 },
+                image: "Flags/malaysia.gif"
+            },
+            {
+                id: 20,
+                country: "کویت",
+                topDestinations: ["لندن", "ادینبورگ", "منچستر"],
+                travelPurposes: { business: 30, education: 20, leisure: 40, family: 10 },
+                ageGroups: { '18-25': 20, '26-40': 40, '41-60': 25, '60+': 15 },
+                economicLevels: { high: 35, medium: 45, low: 20 },
+                demographics: { retired: 15, couples: 30, solo: 25, youth: 15, family: 15 },
+                image: "Flags/kuwait.gif"
+            },
+            {
+                id: 21,
+                country: "مصر",
+                topDestinations: ["لندن", "ادینبورگ", "منچستر"],
+                travelPurposes: { business: 30, education: 20, leisure: 40, family: 10 },
+                ageGroups: { '18-25': 20, '26-40': 40, '41-60': 25, '60+': 15 },
+                economicLevels: { high: 35, medium: 45, low: 20 },
+                demographics: { retired: 15, couples: 30, solo: 25, youth: 15, family: 15 },
+                image: "Flags/egypt.gif"
             },
             // You can add more country tourist analysis objects here by copying and pasting the structure above.
         ];
